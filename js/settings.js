@@ -47,7 +47,7 @@
 		// Countdown
 
 		var weddingDate = new Date();
-		var weddingDate = new Date(weddingDate.getFullYear() + 1, 1 - 1, 1);
+		var weddingDate = new Date(2016, 5 - 1, 21);
 		$(".countdown").countdown({
 			until: weddingDate,
 			format: 'ODHMS'
