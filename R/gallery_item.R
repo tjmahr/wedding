@@ -11,12 +11,7 @@ source("R/dsl_html.R")
           </li>
 '
 
-gal_item <-
-  li_gal(
-    a_fancybox(thumbnail(src = placeholder(100, 100)), span_part, href = placeholder(500, 500))
-  )
 
-cat(gal_item)
 
 li <- tag("li")
 icon <- tag("i")
@@ -43,9 +38,14 @@ placeholder <- function(x, y) {
   sprintf("http://placehold.it/%sx%s.jpg", x, y)
 }
 
+gal_item <-
+  li_gal(
+    a_fancybox(thumbnail(src = "images/gallery/scary_thumb.jpg"),
+               span_part,
+               href = "images/gallery/scary_fit.jpg")
+  )
 
-
-
+cat(gal_item)
 
 
 

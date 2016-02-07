@@ -1,0 +1,2 @@
+# Image Magic
+convert scary_raw.jpg -resize 800x600\> scary_fit.jpg
