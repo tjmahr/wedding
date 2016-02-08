@@ -38,14 +38,15 @@ placeholder <- function(x, y) {
   sprintf("http://placehold.it/%sx%s.jpg", x, y)
 }
 
-gal_item <-
+
+
+gal_item <- function(x, y) {
   li_gal(
-    a_fancybox(thumbnail(src = "images/gallery/scary_thumb.jpg"),
+    a_fancybox(thumbnail(src = x),
                span_part,
-               href = "images/gallery/scary_fit.jpg")
+               href = y)
   )
 
-cat(gal_item)
-
+}
 
 
