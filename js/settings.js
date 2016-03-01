@@ -2,7 +2,7 @@
 	"use strict";
 
 	$(document).ready(function() {
-		
+
 		// ====================================================================
 
 		// Navbar position
@@ -16,7 +16,7 @@
 				$('body').css('padding-top', '0');
 			}
 		});
-		
+
 		// ====================================================================
 
 		// Smooth Scroll on Menu Click
@@ -53,17 +53,6 @@
 			format: 'ODHMS'
 		});
 
-		// ====================================================================
-
-		// Owl Carousel
-
-		$("#registry .owl-carousel").owlCarousel({
-			items: 6,
-			itemsDesktop: [1199,5],
-			itemsDesktopSmall: [991,4],
-			itemsTablet: [767,3],
-			slideSpeed: 800
-		});
 
 		// ====================================================================
 
